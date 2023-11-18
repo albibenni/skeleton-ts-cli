@@ -1,0 +1,24 @@
+{
+  "name": "skeleton-ts-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Alberto Benatti",
+  "license": "ISC",
+  "keywords": [],
+  "bin": {
+    "node-ts": "./bin/node-cli.ts"
+  },
+  "scripts": {
+    "lint": "tsc",
+    "dev": "tsc -w",
+    "install": "pnpm install -g"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
