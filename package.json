@@ -7,15 +7,18 @@
   "license": "ISC",
   "keywords": [],
   "bin": {
-    "node-ts": "./bin/node-cli.ts"
+    "node-ts": "./packages/cli/node-cli.ts"
   },
   "scripts": {
+    "build": "pnpm run build",
     "lint": "tsc",
     "dev": "tsc -w",
-    "install": "pnpm install -g"
+    "install": "pnpm install -g",
+    "test": "pnpm run test --force"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "tsup": "^7.3.0",
     "typescript": "^5"
   },
   "dependencies": {

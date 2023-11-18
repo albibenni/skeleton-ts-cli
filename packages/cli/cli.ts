@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { Command } from "commander";
-import pjson from "../package.json";
+import pjson from "../../package.json";
 
 const program = new Command();
 
