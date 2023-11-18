@@ -1,0 +1,16 @@
+{
+  "display": "Node LTS",
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "outDir": "dist",
+    "module": "NodeNext",
+    "target": "ESNext",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "NodeNext"
+  },
+  "include": ["bin"]
+}
