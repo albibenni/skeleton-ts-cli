@@ -10,16 +10,17 @@
     "node-ts": "./packages/cli/node-cli.ts"
   },
   "scripts": {
-    "build": "pnpm run build",
+    "build": "tsup",
     "lint": "tsc",
-    "dev": "tsc -w",
-    "install": "pnpm install -g",
-    "test": "pnpm run test --force"
+    "dev": "vitest",
+    "test": "vitest run"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@types/node": "^20",
     "tsup": "^7.3.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^0.34.6"
   },
   "dependencies": {
     "commander": "^11.1.0"
