@@ -4,13 +4,14 @@
     "lib": ["ESNext"],
     "outDir": "dist",
     "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "target": "ESNext",
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "NodeNext"
+    "resolveJsonModule": true
   },
   "include": ["bin"]
 }
