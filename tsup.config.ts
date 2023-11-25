@@ -6,6 +6,7 @@ export default defineConfig(async () => {
       entry: ["packages/**/*.ts"],
       format: ["esm", "cjs"],
       dts: true,
+      sourcemap: true,
     },
   ];
 });
