@@ -1,5 +1,5 @@
 {
-  "name": "skeleton-ts-cli",
+  "name": "@albi-benni/skeleton-ts-cli",
   "version": "0.0.4",
   "description": "",
   "main": "./dist/cli.js",
