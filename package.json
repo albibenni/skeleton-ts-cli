@@ -2,6 +2,7 @@
   "name": "@albi-benni/skeleton-ts-cli",
   "version": "0.0.4",
   "description": "",
+  "private": false,
   "main": "./dist/cli.js",
   "module": "..dist/cli.mjs",
   "types": ".dist/cli.d.ts",
