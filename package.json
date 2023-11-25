@@ -1,5 +1,5 @@
 {
-  "name": "albi-benni",
+  "name": "skeleton-ts-cli",
   "version": "0.0.4",
   "description": "",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "dev": "vitest",
     "test": "vitest run",
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
-    "release": "pnpm run lint && pnpm run test && pnpm run build && changesets publish"
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
