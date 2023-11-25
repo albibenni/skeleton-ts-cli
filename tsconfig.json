@@ -1,18 +1,13 @@
 {
-  "display": "Node LTS",
   "compilerOptions": {
-    "lib": ["ESNext"],
     "outDir": "dist",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "target": "ESNext",
+    "module": "CommonJS",
+    "target": "ES2016",
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "baseUrl": "."
-  },
-  "include": ["packages"]
+    "noEmit": true
+  }
 }
