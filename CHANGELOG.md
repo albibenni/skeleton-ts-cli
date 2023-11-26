@@ -1,5 +1,11 @@
 ## 0.0.1
 
+## 0.0.4
+
+### Patch Changes
+
+- e261435: test
+
 ## 0.0.3
 
 ### Patch Changes
