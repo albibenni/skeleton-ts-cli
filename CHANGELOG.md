@@ -1,5 +1,11 @@
 ## 0.0.1
 
+## 0.0.6
+
+### Patch Changes
+
+- 22777df: npmrc
+
 ## 0.0.5
 
 ### Patch Changes
