@@ -1,6 +1,6 @@
 {
   "name": "@albi-benni/skeleton-ts-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "private": false,
   "main": "./dist/cli.js",
